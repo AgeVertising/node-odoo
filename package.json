@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "homepage": "https://github.com/AgeVertising/node-odoo",
   "scripts": {
-    "watch": "tsc-watch --onSuccess \"node ./src/index.js\"",
+    "watch": "tsc -p ./ -w",
     "build": "tsc",
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
