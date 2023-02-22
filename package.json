@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "odoo node sdk",
   "main": "dist/index.js",
-  "homepage": "https://www.agevertising.net",
+  "homepage": "https://github.com/AgeVertising/node-odoo",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "lint": "npx eslint src/ dist/ file1.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
 }
