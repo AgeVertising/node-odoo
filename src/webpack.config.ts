@@ -5,7 +5,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.ts?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
       },
@@ -17,6 +17,6 @@ module.exports = {
   output: {
     filename: 'app.js',
     clean: true,
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'dist'),
   },
 };
